@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin SignUp Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Supermercado+One&family=The+Nautigal:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="left-side">
+      <div class="odin-background">
+        <div class="odin">
+          <img
+            class="odin-logo"
+            src="./assets/odin-lined.png"
+            alt="odin logo img"
+          />
+          <p>ODIN</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="right-side">
+      <div class="flex-container-right">
+        <div class="top-text">
+          <p>
+            This is not a real online service! You know you need something
+            <br />
+            like this in your life to help you realize your deepest dreams.
+            <br />
+            Sign up <i>now</i> to get started!
+          </p>
+          <p>You know you want to.</p>
+        </div>
+
+        <div class="form">
+          <form class="inside-form">
+            <fieldset class="field-left">
+              <h3>Let's do this!</h3>
+              <label for="first-name">First Name</label>
+              <input type="text" />
+
+              <label for="email">Email</label>
+              <input type="email" />
+
+              <label for="password1">Password</label>
+              <input type="password" />
+            </fieldset>
+
+            <fieldset class="field-right">
+              <label class="right-label-pad-down" for="last-name"
+                >Last Name</label
+              >
+              <input type="text" />
+
+              <label for="phone">Phone Number</label>
+              <input type="text" />
+
+              <label for="password2">Confirm Password</label>
+              <input type="password" />
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="button-div">
+          <button>Create Account</button>
+          <p class="under-button">
+            Already have an account? <a href="#">Log in</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
